@@ -108,11 +108,8 @@
    flex:3;
  }
  .brief-note{
-   height:450px;
+    height:100%;
  }
-/*  .brief-note:hover{
-   height:100%;
- } */
  #skills{
    flex:1;
  }
