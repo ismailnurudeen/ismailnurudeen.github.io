@@ -1,0 +1,479 @@
+
+/* 
+    Created on : 11-Sep-2017, 10:26:12
+    Author     : El Nuru
+*/
+
+
+
+
+.project-carousel img{
+   height:70%;
+   width: 80%;
+ } 
+ 
+ .project-carousel .carousel{
+   height: inherit;
+ }
+ 
+ 
+ 
+ 
+ 
+ *{
+   padding:0;
+   margin:0;
+ }
+ body{
+   margin:0px auto 20px;
+ }
+ .body-background{
+     font-family:helvetical,Courier,monospace;
+     font-size: 30px;
+     background:#ececec; 
+     border-left:1px solid dimgray;
+     border-right:1px solid rgba(0,0,0,0.7);
+ }
+ 
+ .card-view {
+     border-top: 1px outset grey;
+      border-left: 1px outset grey;
+     border-radius: 5px;
+     box-shadow: 8px 10px 10px 2px dimgray;
+     padding: 25px;
+     background:teal;
+     color: #fff;
+     margin-bottom: 50px;
+     transform:translateY(5px);
+ }
+ 
+ 
+ .divider{
+     height: 5px;
+     background: #111;
+     box-shadow: 3px 5px 3px 1px teal;
+     margin-top: 95px;
+     border-radius: 3px;
+ 
+ }
+ a:hover{
+     text-decoration: none;
+ }
+ 
+ header img{
+     border:10px double teal;
+     background:#222;
+ }
+ .page-header{
+    /* background:url("../header-bg.gif") 20px -150px;*/
+    background:rgba(0,0,0,0.7);
+     background-size: cover;
+     background-clip: padding-box;
+     width:100%;
+     color: #fff;
+     padding:10px auto;
+   overflow: hidden;
+   padding-bottom: 9px;
+   margin: 8px 0 0px;
+ }
+ .page-header h1{
+   text-shadow:5px 5px 3px #555;
+   font-size:4rem;
+ }
+ .page-header h3{
+ font-weight: bolder;
+   color:rgba(0,0,0,0);
+   font-size: 3rem;
+ }
+ 
+ .navbar-header{
+   margin: 15px auto;
+ }
+ /*.navbar-header button .p1:hover{
+    animation: 1s roller;
+ }
+ .navbar-header button .p2:hover{
+      animation: 1s shake;
+ }
+ .navbar-header button .p3:hover{
+     animation: 1s roller;
+ }
+ .navbar-header button:hover{
+   animation: 1s roller;
+ }*/
+ #about{
+     margin-right:15px;
+   word-wrap: break-word;
+   overflow: hidden;
+   flex:3;
+ }
+ .brief-note{
+   height:450px;
+ }
+ .brief-note:hover{
+   height:100%;
+ }
+ #skills{
+   flex:1;
+ }
+ #skills .label{
+   background: teal;
+ }
+ #skills .fa-coffee{
+   color:inherit;
+ }
+ #skills .glyphicon-fire{
+   color:firebrick;
+   font-size: 5.5rem;
+ }
+ #skills .fa-android{
+   color:green;
+ }
+ #skills .fa-html5{
+   color:darkred;
+ }
+ #skills .fa-css3{
+   color:darkgoldenrod;
+ }
+ #skills .fa:hover,#skills .glyphicon:hover{
+  animation:bounce 500ms;
+ }
+ 
+ #about .glyphicon-info-sign:hover{
+   animation:bounce 500ms;
+ }
+ #skills .glyphicon-cutlery{
+   
+ }
+ #projects .glyphicon-briefcase:hover{
+   animation:bounce 500ms;
+ }
+ #certification .glyphicon-certificate{
+   animation:roller 1.5s infinite;
+ }
+ #social .glyphicon-thumbs-up:hover{
+   animation:shake 500ms infinite;
+ }
+ 
+ #contact .glyphicon-phone-alt:hover{
+    animation:shake 1s infinite;
+ }
+ #social .fa:hover{
+   animation:bounce .5s;
+ }
+ #certification{
+    overflow: hidden; 
+     text-align: center;
+    padding:5px;
+ }
+ 
+ #certificate-slide{
+   width: 70%;
+   margin: 10px auto;
+   padding: 0;
+ }
+ #certificate-slide img{
+   width: 100%;
+ }
+ 
+ .projects{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ 
+ .projects .thumbnail{
+   flex: 1;
+   margin: 10px ;
+   word-wrap: break-word;
+ }
+ #contact{
+   flex: 1;
+ }
+ #contact .well{
+  background-size: cover;
+ }
+ #contact form input{
+   background:rgba(255,255,255,1);
+   color:steelblue;
+   font-size:2rem;
+ }
+ #contact form span,#contact button{
+   background:DimGrey;
+   color: #fff;
+ }
+ #contact p{
+     background-color:Gray;
+     background-size:100%;
+     background-repeat:repeat-y;
+     color:#fff;
+     padding:10px;
+     border-radius:5px;
+ }
+ 
+ #contact .well{
+   background:url("https://image.ibb.co/gXhBtk/f_F5_Fl_VMZY1_E6hk_WZvvrr_Yri_YVtu_BURMr_IDup_V2vo_Ym2_AXL1_Drlz_OA_w1200_h630_p.jpg")  -40px -18px;
+ }
+ #contact .hidden-xs {
+   padding-left: 25%;
+ }
+ #contact .hidden-xs input-group{
+   margin: 0px 50px;
+ }
+ #contact .hidden-xs input{
+   width: 70%;
+ }
+ #contact .hidden-xs button{
+   width: 70%;
+   margin-left: 20px;
+ }
+ .contact-social{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .social-icons{
+   display: flex;
+   flex-wrap: wrap;
+   flex: 1;
+ }
+ .social-icons a{
+   flex:1;
+ }
+ 
+ footer{
+   background:rgba(0,0,0,0.7);
+     width:100%;
+     color: #fff;
+     padding: 10px;
+     border-radius:2px;
+     font-size: 25px;
+     overflow:auto;
+   position:relative;
+ }
+ footer .label{
+   background: teal;
+ }
+ .b2top i{
+  position:fixed;
+  bottom:40px;
+  right:30px;
+  padding:0px !important;
+  text-align:center;
+}
+ footer a{
+   color:teal;
+   
+ }
+ 
+ @media(min-width:768px){
+ .navbar-nav{
+    background:teal;
+     border-radius:0px 0px 5px 5px;
+     padding:20px auto;
+     margin-bottom:50px;
+     color: #fff;
+     justify-content: center;
+     width: 100%;
+     display: flex;
+     overflow: hidden;
+     transform-origin: top center;
+     transition: all 1s ease-in-out;
+     animation: nav-flip 2.5s forwards;
+ }
+   
+ .navbar-nav a{ 
+     margin:5px auto;
+     color:#fff;
+     border-radius:5px;
+     flex:1;
+     height: 38px;
+     display: none !important;
+ }
+   
+ .navbar-nav a:hover{
+     color:Teal;
+ }
+   
+   .to-contact a,.to-cert a,.to-project  a{
+     display:block !important;
+     margin: 5px 20px;
+   }
+   
+   .about-skills{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ }
+ @media(min-width:1200px){
+   .navbar-nav a{
+    display: block !important;
+     margin:5px auto;
+   }
+ }
+ @media(max-width:768px){
+ .page-header{
+    /* background:url("../header-bg.gif");*/
+     background-size: cover;
+    border-radius:8px;
+     }
+     
+     .nav-bg{
+   background:url("https://image.ibb.co/ia1FKQ/eh_VHn3ue9g_QBxxi_R6_52_XQHa_Rt_SI3jghpk2kw_Brc_Leg0_Thaio_Y3_Mig_w1200_h630_p.png");;
+         background-size:cover;
+         padding:0px;
+     }
+     .nav-bg-opacity{
+         background:rgba(255,255,255,0.5);
+         overflow:hidden;
+     }
+   .navbar-nav a,.navbar-brand{
+     color:DimGrey !important;
+   }
+ .navbar-brand{
+     color:DimGrey !important;
+     margin-bottom:20px;
+   }
+ 
+ }
+ 
+ @keyframes nav-flip{
+   0%{
+     opacity: 0.6;
+     transform: translateX(-1500px);
+     height:20px;
+   }
+   90%{
+     height: 20px;
+   }
+   100%{
+     opacity: 1;
+     transform:translateX(-16px);
+     height:45px;
+     padding-bottom:50px;
+   }
+ }
+ 
+ @keyframes bounce{
+   0%{
+     transform:scale(1)translateY(0px);
+   }
+   50%{
+     transform:scale(1.2) translateY(-10px);
+   }
+   100%{
+     transform:scale(1) translateY(0px);
+   }
+ }
+ 
+ @keyframes roller{
+   0%{
+     transform:scale(1.1) rotate(0deg);
+   }
+ /*
+   50%{
+     transform:rotate(90deg);
+   
+     75%{
+     transform:rotate(180deg);
+   }
+ */
+   100%{
+     transform:scale(1.1) rotate(360deg);
+   }
+ }
+ @keyframes shake{
+   0%{
+     transform:translateY(0px) rotate(5deg);
+   }
+   50%{
+     transform: translateY(1px) rotate(-10deg);
+   }
+   100%{
+     transform: translateY(0px) rotate(13deg);
+   }
+ }
+ @keyframes opac{
+ 
+ }
+ 
+ .modalbtn{
+   font-size:1rem;
+   margin-bottom:5px;
+   outline:none;
+ }
+ .modalbtn:hover{
+   background:teal;
+   cursor: pointer;
+   color:white;
+ }
+ 
+ .modal{
+   display: none;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+   top:0;
+   left: 0;
+   z-index: 1;
+   overflow: auto;
+   background:rgba(0,0,0,0.5);
+ }
+ 
+ .modal-content{
+   background: #f4f4f4;
+   margin: 10% auto;
+   width:500px;
+   box-shadow:6px 5px 10px rgba(0,0,0,0.5);
+   border-radius:2px;
+   animation: openModal 500ms;
+   z-index:1;
+ }
+ 
+ .closeBtn {
+   float: right;
+   font-size: 25px;
+   color: #fff;
+   font-weight:500;
+   background:teal;
+ }
+ .closeBtn:hover,.closeBtn:focus{
+   color:red;
+   cursor: pointer;
+   text-decoration: none;
+   font-weight:600;
+ }
+ 
+ @keyframes openModal{
+   from{
+     opacity:0;
+   }
+   to{
+     opacity: 1;
+   }
+ }
+ 
+ 
+ .modal-header {
+   background: teal;
+   padding: 10px;
+   color:white;
+     text-align:center;
+ }
+ .modal-header h2{
+   margin:0;
+   font-weight:400;
+ }
+ .modal-body{
+   padding: 10px;
+ }
+ .modal-footer{
+     background: teal;
+   padding:10px;
+   color:white;
+     text-align: center;
+ }
+ .modal-footer h4{
+   margin:0;
+   font-weight:100;
+ }

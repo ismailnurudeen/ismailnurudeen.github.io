@@ -1,2 +1,2 @@
 # myportfolio
-My portfolio files
+This a repo of my bootstrap based portfolio page...
