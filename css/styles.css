@@ -110,9 +110,9 @@
  .brief-note{
    height:450px;
  }
- .brief-note:hover{
+/*  .brief-note:hover{
    height:100%;
- }
+ } */
  #skills{
    flex:1;
  }
