@@ -63,6 +63,7 @@
  header img{
      border:10px double teal;
      background:#222;
+     margin-bottom:10px;
  }
  .page-header{
     /* background:url("../header-bg.gif") 20px -150px;*/
